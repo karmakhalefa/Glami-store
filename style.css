@@ -502,7 +502,9 @@ footer .footer-1 .icons a {
   color: white;
   text-decoration: none;
 }
-
+footer .footer-1 .icons a:hover {
+  color: var(--main-color);
+}
 footer .footer-1 .icons a i {
   font-size: 20px;
 }
@@ -515,6 +517,7 @@ footer .footer-1 .icons a i {
 .footer-3 ul li,
 .footer-4 ul li {
   margin-block: 3px;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   footer {
