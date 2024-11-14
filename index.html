@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!--font google  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- file css -->
+    <link rel="stylesheet" href="/style.css" />
+    <title>Glami</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id="logo">Glami</div>
+        <nav id="menu-desktop">
+          <ul>
+            <li>products</li>
+            <li>questions</li>
+            <li>about</li>
+            <li>content</li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <div class="menu" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </header>
+      <!--   start menu mobile -->
+      <nav id="menu-mobile">
+        <ul>
+          <li>products</li>
+          <li>questions</li>
+          <li>about</li>
+          <li>content</li>
+        </ul>
+      </nav>
+      <!--  end menu mobile -->
+      <!-- start banner -->
+      <main>
+        <div class="banner">
+          <div class="img">
+            <img
+              loading="lazy"
+              src="/assets/51niuZIjSoL.__AC_SX300_SY300_QL70_ML2_-removebg-preview.png"
+              alt="image banner"
+            />
+          </div>
+          <div class="details">
+            <h1>Purifiying gel cleanser</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+              quos sit explicabo adipisci. Iste perspiciatis esse recusandae
+            </p>
+            <button id="buy">BUY NOW</button>
+            <button class="exp">EXPLORE</button>
+          </div>
+        </div>
+        <!-- end banner -->
+        <!-- start brands -->
+        <div class="brands">
+          <img src="/assets/ibm.png" alt=" " />
+          <img src="/assets/internet.png" alt="" />
+          <img src="assets/samsung.png" alt="" />
+          <img src="/assets/stripe.png" alt=" " />
+          <img src="/assets/videvo.png" alt="" />
+        </div>
+        <!-- end brands -->
+        <!--    start square img -->
+        <div class="square-img">
+          <h2>different from the rest</h2>
+          <div class="collection">
+            <div class="col">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestias nesciunt sapiente optio sint architecto assumenda
+                veniam facilis ipsa
+              </p>
+              <img
+                loading="lazy"
+                src="/assets/element5-digital-8FXAJ1Qzhho-unsplash.jpg"
+                alt=""
+              />
+              <img
+                loading="lazy"
+                src="/assets/anna-keibalo-ExgS8PAuKY0-unsplash.jpg"
+                alt=""
+              />
+            </div>
+            <div class="col-1">
+              <img
+                loading="lazy"
+                src="/assets/ashley-piszek-kd9yd3-N5Jk-unsplash.jpg"
+                alt=""
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestias nesciunt sapiente optio sint architecto assumenda
+                veniam facilis ipsa
+              </p>
+            </div>
+            <div class="col-2">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Molestias nesciunt sapiente optio sint architecto assumenda
+                veniam facilis ipsa
+              </p>
+              <img
+                loading="lazy"
+                src="/assets/johanne-pold-jacobsen-1A5hSvPZjMc-unsplash.jpg"
+                alt=""
+              />
+              <img
+                loading="lazy"
+                src="/assets/laura-chouette-bzPJm3v8RWk-unsplash.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="score">
+            <div>
+              <span>56</span>
+              <p>countries supported</p>
+            </div>
+            <div>
+              <span>122+</span>
+              <p>international errancies</p>
+            </div>
+            <div>
+              <span>1M+</span>
+              <p>sales through-out the world</p>
+            </div>
+          </div>
+          <button class="exp">BUY NOW</button>
+        </div>
+        <!--  end square img -->
+        <!-- start our products -->
+        <section class="our-products">
+          <h2>our product</h2>
+          <div class="list-products">
+            <div class="product">
+              <div class="parent-img">
+                <img
+                  src="https://mazaya.eg/_ipx/w_400,f_webp/https://www.mazaya.eg/media/catalog/product/y/s/ysl_dmi_makl_rpc_packshot_front-opened-and-closed_shade-rouge-muse_3543_3543px_3614273945219_rgb_1.jpg%3Fstore=en%26image-type=thumbnail"
+                  alt=""
+                />
+                <span>24$</span>
+              </div>
+              <h3>L’Oréal Paris</h3>
+              <p>
+                L'Oréal Paris Pure Clay Black Face Cleanser with Charcoal,
+                Detoxifies and Clarifies, 150 ml
+              </p>
+
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <div class="parent-img">
+                <img
+                  src="https://mazaya.eg/_ipx/w_400,f_webp/https://www.mazaya.eg/media/catalog/product/3/7/3760237853257-2.jpg%3Fstore=en%26image-type=thumbnail"
+                  alt=""
+                />
+                <span>29$</span>
+              </div>
+              <h3>The Body Shop</h3>
+              <p>
+                Tea Tree In-Control Hydrator, For Oily, Blemished Skin, Vegan,
+                1.35 Fl Oz
+              </p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <div class="parent-img">
+                <img
+                  src="https://mazaya.eg/_ipx/w_400,f_webp,q_85/https://www.mazaya.eg/media/catalog/product/8/6/8682536023092.jpg%3Fstore=en%26image-type=thumbnail"
+                  alt=""
+                />
+                <span>19$</span>
+              </div>
+              <h3>Oriflame</h3>
+              <p>
+                L'Oréal Paris Pure Clay Black Face Cleanser with Charcoal,
+                Detoxifies and Clarifies, 150 ml
+              </p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <div class="parent-img">
+                <img
+                  src="https://mazaya.eg/_ipx/w_400,f_webp,q_85/https://www.mazaya.eg/media/catalog/product/l/c/lcl_102020_makeup_lashidole_fullsizepdp_1000x1000.jpg%3Fstore=en%26image-type=thumbnail"
+                  alt=""
+                />
+                <span>33$</span>
+              </div>
+              <h3>Flormar</h3>
+              <p>
+                Face Wash Scrub Mask, 3in1 Urban Skin Claywash, Matify & Pore
+                Clean, 150ml
+              </p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <div class="parent-img">
+                <img
+                  src="https://mazaya.eg/_ipx/w_400,f_webp/https://www.mazaya.eg/media/catalog/product/0/3/03_hot_pepper_1.jpg%3Fstore=en%26image-type=thumbnail"
+                  alt=""
+                />
+                <span>26$</span>
+              </div>
+              <h3>L’COSRX</h3>
+              <p>AC Collection Calming Liquid Intensive, 125 ml / 4.22 fl.oz</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <div class="parent-img">
+                <img
+                  src="https://mazaya.eg/_ipx/w_400,f_webp/https://www.mazaya.eg/media/catalog/product/8/6/8682536012119_2.jpg%3Fstore=en%26image-type=thumbnail"
+                  alt=""
+                />
+                <span>24$</span>
+              </div>
+              <h3>L’Oréal Paris</h3>
+              <p>
+                L'Oréal Paris Pure Clay Black Face Cleanser with Charcoal,
+                Detoxifies and Clarifies, 150 ml
+              </p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <div class="parent-img">
+                <img
+                  src="https://mazaya.eg/_ipx/w_400,f_webp,q_85/https://www.mazaya.eg/media/catalog/product/4/0/4059729407511.jpeg%3Fstore=en%26image-type=thumbnail"
+                  alt=""
+                />
+                <span>24$</span>
+              </div>
+              <h3>L’Oréal Paris</h3>
+              <p>
+                L'Oréal Paris Pure Clay Black Face Cleanser with Charcoal,
+                Detoxifies and Clarifies, 150 ml
+              </p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <div class="parent-img">
+                <img
+                  src="https://mazaya.eg/_ipx/w_400,f_webp/https://www.mazaya.eg/media/catalog/product/l/a/lan_dmi_maky_teint-idole-ultra-wear-210c_3614273792486_packshot-front_1.1_vi_1.png%3Fstore=en%26image-type=thumbnail"
+                  alt=""
+                />
+                <span>24$</span>
+              </div>
+              <h3>L’Oréal Paris</h3>
+              <p>
+                L'Oréal Paris Pure Clay Black Face Cleanser with Charcoal,
+                Detoxifies and Clarifies, 150 ml
+              </p>
+              <button>Add to cart</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- end our products -->
+        <!-- start ask question -->
+        <section class="Ask-questions">
+          <h2>frequently asked questions</h2>
+          <div class="questions">
+            <details>
+              <summary>Epcot Center</summary>
+              <p>
+                Epcot is a theme park at Walt Disney World Resort featuring
+                exciting attractions, international pavilions, award-winning
+                fireworks and seasonal special events.
+              </p>
+            </details>
+            <details>
+              <summary>Epcot Center</summary>
+              <p>
+                Epcot is a theme park at Walt Disney World Resort featuring
+                exciting attractions, international pavilions, award-winning
+                fireworks and seasonal special events.
+              </p>
+            </details>
+            <details>
+              <summary>Epcot Center</summary>
+              <p>
+                Epcot is a theme park at Walt Disney World Resort featuring
+                exciting attractions, international pavilions, award-winning
+                fireworks and seasonal special events.
+              </p>
+            </details>
+            <details>
+              <summary>Epcot Center</summary>
+              <p>
+                Epcot is a theme park at Walt Disney World Resort featuring
+                exciting attractions, international pavilions, award-winning
+                fireworks and seasonal special events.
+              </p>
+            </details>
+            <details>
+              <summary>Epcot Center</summary>
+              <p>
+                Epcot is a theme park at Walt Disney World Resort featuring
+                exciting attractions, international pavilions, award-winning
+                fireworks and seasonal special events.
+              </p>
+            </details>
+            <details>
+              <summary>Epcot Center</summary>
+              <p>
+                Epcot is a theme park at Walt Disney World Resort featuring
+                exciting attractions, international pavilions, award-winning
+                fireworks and seasonal special events.
+              </p>
+            </details>
+          </div>
+        </section>
+        <!-- end ask question -->
+        <!--start our customer -->
+        <section class="our-customers">
+          <h2>what does our customer say?</h2>
+          <div class="client">
+            <div class="customer">
+              <img
+                loading="lazy"
+                src="/assets/rachel-mcdermott-0fN7Fxv1eWA-unsplash.jpg"
+                alt=""
+              />
+              <h3>Eslam</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labor
+                fugit!
+              </p>
+            </div>
+            <div class="customer">
+              <img
+                loading="lazy"
+                src="/assets/jack-finnigan-veB8-OSCyM4-unsplash.jpg"
+                alt=""
+              />
+              <h3>Engy</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labor
+                fugit!
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--end our customer -->
+      </main>
+    </div>
+    <!-- start footer -->
+    <footer>
+      <!-- Footer Section 1 -->
+      <div class="footer-1">
+        <h2>Glami</h2>
+        <p>Contact us for more information or support.</p>
+        <div class="icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i> </a>
+          <a href="#"><i class="fa-brands fa-twitter"></i> </a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <!-- footer section 2 -->
+      <div class="footer-2">
+        <ul>
+          <li>features</li>
+          <li>pricing</li>
+          <li>login</li>
+          <li>sign up</li>
+        </ul>
+      </div>
+      <!-- footer section 3 -->
+      <div class="footer-3">
+        <ul>
+          <li>Terms of use</li>
+          <li>privacy policy</li>
+          <li>legal Notice</li>
+        </ul>
+      </div>
+      <!-- footer section 4-->
+      <div class="footer-4">
+        <ul>
+          <li>Feedback</li>
+          <li>privacy policy</li>
+          <li>legal Notice</li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- end footer -->
+    <button id="scroll" onclick="topFunction()">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- file javascript -->
+    <script src="/main.js"></script>
+  </body>
+</html>
